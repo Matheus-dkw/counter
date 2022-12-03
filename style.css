@@ -1,0 +1,86 @@
+body{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    
+    background-color: rgba(212, 229, 229, 0.468);
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+
+
+.container{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.counter{
+    font-size: 50pt;
+    
+}
+
+#numero{
+    margin: 50px;
+    font-size: 70pt;
+    color: rgb(0, 0, 0);
+    
+}
+
+.botoes{
+    display: flex;
+
+}
+
+
+.btn{
+    
+    height: 15px;
+
+    font-size: 12pt;
+    text-transform:uppercase;
+    letter-spacing: 5px;
+
+    margin: 0px 20px;
+    padding: 7px 5px 12px 7px;
+
+    border: 3px solid;
+    border-radius: 8px;
+    
+    align-items: center;
+    
+    
+}
+
+.btn:hover{
+    cursor: pointer;
+
+    border-color: rgb(0, 0, 0) ;
+    
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+    transition: 350ms;
+}
+
+/* -------------- btn Increase------------------*/
+
+.btn:last-of-type:hover{ /*==========maneiro=============*/
+    border-color: rgb(0, 0, 0) ;
+    
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+    transition: 350ms;
+}
+
+/* -------------- btn Decrease------------------*/
+
+.btn:first-of-type:hover{/*==========maneiro=============*/
+    border-color: rgb(0, 0, 0) ;
+    
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+    transition: 350ms;
+}
